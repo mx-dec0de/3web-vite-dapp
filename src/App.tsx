@@ -18,7 +18,7 @@ export function App() {
 
   useEffect(() => {
     if (activeChain) {
-      console.log(`Connected to chain: ${activeChain.chainName} (ID: ${activeChain.chainId})`);
+      console.log(`Connected to chain: (ID: ${activeChain.id})`);
       setIsConnected(true);
     } else {
       console.log("Not connected to any chain.");
